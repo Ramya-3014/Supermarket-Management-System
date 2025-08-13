@@ -15,8 +15,8 @@ function App() {
     <Router>
       <Routes>
         {/* Login routes without navbar */}
-        <Route path="/" element={<Login />} />
-        <Route path="/login" element={<Login />} />
+        {/* <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} /> */}
 
         {/* Pages with navbar */}
         <Route

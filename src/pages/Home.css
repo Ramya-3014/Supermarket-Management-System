@@ -1,5 +1,9 @@
+.home-container {
+  padding-top: 60px; /* equal to navbar height */
+}
+
 .hero-section {
-  position: relative;
+  /* position: relative; */
   height: 100vh;
   width: 100%;
   background-size: cover;
