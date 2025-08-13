@@ -1,0 +1,37 @@
+/* Footer.css */
+
+.footer {
+  background: linear-gradient(90deg, #fdfcfe, #fcfcfc); /* rich purple gradient */
+  color: black; /* soft lavender */
+  padding: 20px 0;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.3);
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.06em;
+  user-select: none;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom p:hover {
+  color: #bb86fc; /* pastel purple hover */
+  cursor: default;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .footer {
+    padding: 15px 10px;
+  }
+
+  .footer-bottom p {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,73 @@
+.wishlist-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.wishlist-item {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.wishlist-item img {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.wishlist-details h3 {
+  margin: 0;
+}
+
+.remove-btn {
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.remove-btn:hover {
+  background-color: #e06640;
+}
+
+.remove-all-btn {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin: 15px 10px 0 0;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.remove-all-btn:hover {
+  background-color: #c53030;
+  transform: scale(1.05);
+}
+
+.back-btn {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin: 15px 0;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: #023e8a;
+}
